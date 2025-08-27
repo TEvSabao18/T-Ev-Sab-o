@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br>">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/catalago.css">
+    <title> T&Ev Sabão | Venda de Sabão em barra</title>
+    <link rel="icon" href="img/logo_sabao_roxo.png">
+    <script src="script/script.js" defer></script>
+
+
+</head>
+
+
+<body>
+    <nav class="navbar">
+
+        <img src="img/logo_sabao_branco.png" alt="imagem">
+        <div class="nometop">
+            <h1> T&Ev Sabão </h1>
+        </div>
+        <ul class="menu">
+            <li><a href="index.html">• Início</a></li>
+            <li><a href="catalago.html">• Catálogo</a></li>
+            <li><a href="sobre.html">• Sobre</a></li>
+        </ul>
+
+    </nav>
+
+    <div class="topcatalogo">
+
+        <h2>Catálogo</h2>
+
+
+    </div>
+
+    <main>
+
+        <section id="produtos">
+
+
+            <div class="product">
+                <img src="img/quarteto sabao netruro - grosso.jpg" alt="Quarteto sabão neutro">
+                <h2>Quarteto Sabão Neutro (Extra) </h2>
+                <p>R$ 12,00</p>
+                <button onclick="addToCart('Quarteto de sabão Neutro (Extra)', 12)">Comprar</button>
+
+            </div>
+
+            <div class="product">
+                <img src="img/sabão neutro - unidade.jpg" alt="Sabão neutro">
+                <h2>Sabão Neutro (Unidade)</h2>
+                <p>R$ 8,00</p>
+                <button onclick="addToCart('Sabão Neutro (Unidade)', 8)">Comprar</button>
+
+            </div>
+
+            <div class="product">
+                <img src="img/sabão de coco - unidade.jpg" alt="Sabão de coco">
+                <h2>Sabão de Coco (Unidade)</h2>
+                <p>R$ 4,50</p>
+                <button onclick="addToCart('Sabão de Coco (Unidade)', 4.50)">Comprar</button>
+
+            </div>
+
+            <div class="product">
+                <img src="img/quarteto sabao neutro - fino.jpg" alt="Sabão neutro medio">
+                <h2>Quarteto Sabão Neutro (Médio)</h2>
+                <p>R$ 10,00</p>
+                <button onclick="addToCart('Quarteto Sabão Neutro (Médio)', 10)">Comprar</button>
+
+            </div>
+
+        </section>
+
+
+    </main>
+
+
+    <div id="carrinho">
+
+        Carrinho:<span id="cart-count">0</span> itens
+        <span id="cart-total">R$ 0,00</span>
+        <ul id="cart-items"></ul>
+        <img src="img/carrinho-removebg-preview.png" alt="carrinho" class="cart-icon">
+        <button onclick="checkout()">Finalizar</button>
+    </div>
+
+    <footer>
+
+        <div class="site">
+
+
+            <h3>Fale conosco</h3>
+            <p>Tem dúvidas ou sugestões? Envie um email para:
+                <a href="mailto:talitaamarante@gmail.com">T&EvBrand@gmail.com</a>
+            </p>
+
+            <h3> Siga nossa reds social</h3>
+            <p class="links">
+                <a href="#" target="_blank"> Instagram</a>
+            </p>
+
+            <hr>
+
+            <p class="copyright">
+                © 2025 T&Ev Brand sabão . Todos os direitos reservados. <br>
+                Este conteúdo tem fins de vendas de sabão, com ingredientes reutilizados.
+            </p>
+
+        </div>
+    </footer>
+
+
+
+</body>
+
+
+</html>

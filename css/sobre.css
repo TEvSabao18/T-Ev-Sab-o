@@ -1,0 +1,208 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: white;
+}
+
+.navbar {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 40px;
+  justify-content: space-between;
+  background-color: rgb(167, 104, 206);
+  color: rgb(255, 255, 255);
+  border-style: ridge;
+  border-color: rgb(9, 0, 73);
+  border-width: thick;
+}
+
+.navbar img {
+  width: 100px;
+  height: 100px;
+}
+
+.nometop {
+  font-family: BlinkMacSystemFont;
+  align-items: center;
+}
+
+.navbar h1 {
+  flex: 1;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+}
+
+.menu li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+
+}
+
+.menu li a:hover {
+  text-decoration: underline;
+  color: #1a045c;
+
+
+}
+
+main {
+  padding: 2rem;
+}
+
+
+
+.toposobre {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.toposobre h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.5rem;
+  color: #4a148c;
+  font-weight: 700;
+  letter-spacing: 2px;
+  position: relative;
+  display: inline-block;
+  padding-bottom: 10px;
+}
+
+/* Linha decorativa embaixo do nome*/
+.toposobre h2::after {
+  content: "";
+  display: block;
+  width: 60%;
+  height: 4px;
+  background: linear-gradient(90deg, #7b1fa2, #ba68c8, #e1bee7);
+  margin: 8px auto 0 auto;
+  border-radius: 2px;
+}
+
+/*Textos*/
+
+
+.sobre {
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  line-height: 1.6;
+}
+
+.destaque {
+  color: #1a045c;
+  font-size: 1.8rem;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.criadores {
+  background: #71e4f649;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 20px;
+  transition: transform 0.3s;
+}
+
+.criadores:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(59, 3, 137, 0.521);
+}
+
+.criadores h3 {
+  color: #3f034d;
+  margin-bottom: 10px;
+}
+
+.diferencial h3 {
+  color: #220760;
+  margin-bottom: 15px;
+}
+
+.diferencial ul {
+  list-style: disc inside;
+  margin-bottom: 20px;
+}
+
+.beneficios li {
+  margin-bottom: 10px;
+}
+
+.beneficios ul {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.beneficios li {
+  background: #71e4f649;
+  color: #333;
+  margin-bottom: 15px;
+  padding: 15px 20px;
+  border-radius: 10px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  transition: background 0.3s;
+}
+
+.beneficios li:hover {
+  background: #9f95dbb3;
+}
+
+
+
+/*Direitos autorais*/
+
+.site {
+  background-color: white;
+  padding: 30px 20px;
+  text-align: center;
+  border-top: 1px solid white;
+}
+
+.site h3 {
+  margin-top: 0;
+  color: black;
+  align-items: center;
+}
+
+.site p {
+  margin: 10px 0;
+  color: darkgray;
+  font-size: 14px;
+}
+
+.site a:hover {
+  text-decoration: underline;
+}
+
+.site hr {
+  margin: 2opx auto;
+  width: 60%;
+  border-top: 1px solid white;
+
+}
+
+.links a {
+  margin: o 5px;
+}
+
+@media (max-width: 600px) {
+  .site-footer {
+    font-size: 13px;
+  }
+}
