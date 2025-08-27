@@ -6,18 +6,25 @@ body {
 }
 
 .navbar {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 40px;
-    justify-content: space-between;
-    background-color: rgb(167, 104, 206);
-    color: rgb(255, 255, 255);
-    border-style: ridge;
-    border-color: rgb(9, 0, 73);
-    border-width: thick;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 40px;
+  justify-content: space-between;
+  background-color: rgb(167, 104, 206);
+  color: rgb(255, 255, 255);
+  border-style: ridge;
+  border-color: rgb(9, 0, 73);
+  border-width: thick;
+  gap:15px
 
+}
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 .navbar img {
@@ -242,4 +249,5 @@ nav ul li a {
     .site-footer {
         font-size: 13px;
     }
+
 }
