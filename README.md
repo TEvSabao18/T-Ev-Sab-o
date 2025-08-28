@@ -12,10 +12,10 @@ O que começou como um exercício acadêmico se transformou em um projeto de imp
 
 💡 Visão Geral
 
-* ♻️ Reaproveitamos um resíduo comum (óleo de cozinha) e **evitamos o descarte inadequado**.
-* 🌎 **Reduzimos a poluição** da água e do solo, contribuindo para a **preservação do meio ambiente**.
-* 👥 **Fortalecemos a comunidade** por meio de educação ambiental e incentivo ao **empreendedorismo local**.
-* 💚 Entregamos um **produto útil, acessível e ecologicamente correto**.
+* ♻️ Reaproveitamos um resíduo comum (óleo de cozinha) e evitamos o descarte inadequado.
+* 🌎 Reduzimos a poluição da água e do solo, contribuindo para a preservação do meio ambiente.
+* 👥 Fortalecemos a comunidade por meio de educação ambiental e incentivo ao empreendedorismo local.
+* 💚 Entregamos um produto útil, acessível e ecologicamente correto.
 
 ---
 
@@ -34,6 +34,7 @@ Funcionalidades do Site
 🛍️ Catálogo: área para visualizar todos os produtos disponíveis.
 🛒 Carrinho de compras abaixo dos produtos, prático e visível.
 🔐 Checkout com integração de pagamento via WhatsApp.
+
 ---
 
 Boas Práticas para Doadores
