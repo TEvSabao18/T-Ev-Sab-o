@@ -46,5 +46,6 @@ Boas Práticas para Doadores
 * Espere o óleo esfriar antes de armazenar.
 * Coe o óleo (se possível) para facilitar o processo.
 * Use recipientes bem fechados e rotulados.
-
+  
+---
 Com carinho, T&Ev Sabão!
