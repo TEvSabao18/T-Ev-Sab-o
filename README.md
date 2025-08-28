@@ -29,11 +29,11 @@ O site foi construído com foco em simplicidade, acessibilidade e clareza:
 
 Funcionalidades do Site
 
-*🏠 Página Inicial: explica por que escolher e comprar nosso sabão.
-*📖 Sobre: apresenta quem somos e nossa missão.
-*🛍️ Catálogo: área para visualizar todos os produtos disponíveis.
-*🛒 Carrinho de compras abaixo dos produtos, prático e visível.
-*🔐 Checkout com integração de pagamento via WhatsApp.
+🏠 Página Inicial: explica por que escolher e comprar nosso sabão.
+📖 Sobre: apresenta quem somos e nossa missão.
+🛍️ Catálogo: área para visualizar todos os produtos disponíveis.
+🛒 Carrinho de compras abaixo dos produtos, prático e visível.
+🔐 Checkout com integração de pagamento via WhatsApp.
 ---
 
 Boas Práticas para Doadores
